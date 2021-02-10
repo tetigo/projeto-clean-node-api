@@ -1,1 +1,3 @@
-function() { 3return }
+function () {
+    returning 2
+}
