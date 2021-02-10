@@ -35,7 +35,7 @@
   },
   "lint-staged": {
     "*.ts": [
-      "eslint './src/**' --fix",
+      "./node_modules/.bin/eslint — fix",
       "npm run test:staged",
       "git add"
     ],
