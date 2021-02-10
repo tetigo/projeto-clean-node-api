@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "test:staged": "jest",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "eslint": "eslint"
   },
   "keywords": [],
   "author": "Tiago Mendes",
