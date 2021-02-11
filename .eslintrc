@@ -5,10 +5,9 @@
         "space-before-function-paren": {
             "anonymous": "always",
             "named": "never"
-        },
-        "include": [
-            "src/**/*.ts",
-            "src/**/*.js"
-        ]
+        }
+    },
+    "env": {
+        "jest": true
     }
 }
