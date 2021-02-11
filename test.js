@@ -1,3 +1,0 @@
-function () {
-    returning 4
-}
