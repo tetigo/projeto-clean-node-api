@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:staged": "jest",
-    "lint-staged": "lint-staged",
+    "lint-staged": "npx lint-staged",
     "eslint": "npx eslint ."
   },
   "keywords": [],
@@ -30,14 +30,14 @@
   },
   "lint-staged": {
     "*.ts": [
-      "eslint 'src/**' --fix",
+      "npx eslint 'src/**' --fix",
       "npm run test:staged",
       "git add"
     ]
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npx lint-staged"
     }
   }
 }
