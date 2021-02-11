@@ -1,3 +1,4 @@
-function () {
-    returning 4
+function test () {
+  return null
 }
+test()

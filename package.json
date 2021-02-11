@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "npx jest",
+    "test:staged": "npx jest"
   },
   "keywords": [],
   "author": "Tiago Mendes",
@@ -27,8 +27,8 @@
     "typescript": "^4.1.4"
   },
   "lint-staged": {
-    "*.ts": [
-      "npx eslint --fix --ext .ts,.js,.jsx src/** .",
+    "*.{ts,js}": [
+      "npx eslint 'src/**' --fix",
       "npm run test:staged"
     ]
   },
