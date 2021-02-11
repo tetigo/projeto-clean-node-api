@@ -6,8 +6,5 @@
             "anonymous": "always",
             "named": "never"
         }
-    },
-    "env": {
-        "jest": true
     }
 }
