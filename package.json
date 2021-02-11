@@ -28,7 +28,7 @@
   },
   "lint-staged": {
     "*.ts": [
-      "npx eslint --fix --ext .ts,.js,.jsx src/** .",
+      "npx eslint 'src/**' --fix",
       "npm run test:staged"
     ]
   },
